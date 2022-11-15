@@ -29,12 +29,13 @@ We managed to eliminate overfitting and managed to reach a decent accuracy by us
 - Using Dropout Layers
 - Using Batch Normalization
 
-## Acknowledgements
-
+## References
+- https://keras.io/guides/
+- https://www.tensorflow.org/tutorials/images/data_augmentation
+- https://augmentor.readthedocs.io/en/stable/
 
 ## Contact
 Created by [@sivaprasadt246] - feel free to contact me!
-
 
 <!-- Optional -->
 <!-- ## License -->
