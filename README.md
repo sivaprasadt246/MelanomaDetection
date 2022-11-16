@@ -1,6 +1,5 @@
 # Project Name
-> Melanoma Detection Assignment
-Use Convolutional Neural Network (CNN) to classify nine types of skin cancer from outlier lesions images
+> Melanoma Detection Assignment : Build a multiclass classification model using a custom convolutional neural network in TensorFlow
 
 
 ## Table of Contents
