@@ -58,7 +58,8 @@ Use Convolutional Neural Network (CNN) to classify nine types of skin cancer fro
     - On top of data imbalance changes, tried two options
       - With dropout and batch normalization
       - With only dropout
-    - Even though validation accuracy increased, still there is 0.1 gap between training and validation accuracy.
+      - Out of two models, we can observe that training and validation accuracy are better in-sync in case of only dropout model
+    - Even though validation accuracy increased when compared with 1st and 2nd models, still there is 0.1 gap between training and validation accuracy.
 
 ## References
 - https://keras.io/guides/
