@@ -29,7 +29,7 @@ Use Convolutional Neural Network (CNN) to classify nine types of skin cancer fro
 - Model 1 was trained for 20 epochs with available data
 - Observations:
     - The model clearly overfits.
-    - The training accuracy is continuously increasing while the validation accuracy is fluctuating around 50% - 55%.
+    - The training accuracy is continuously increasing while the validation accuracy is fluctuating around 50%.
     - The loss on training set decreases after each epoch but in case of the validation loss, its increasing after decreasing for few initial epochs.
     - The model memorized the data instead of generalizing and learning real features and general relationships.
   
@@ -55,9 +55,10 @@ Use Convolutional Neural Network (CNN) to classify nine types of skin cancer fro
 - Augmentor was used to reduce class imbalance (500 images per class got added)
 - Observations:
     - Changes done for data imbalance helped in improving training and validation accuracy.
-    - On top of data imbalance changes
-      - Using dropout and batch normalization : validation accuracy is oscillating and there is considerable difference in training and validation accuracy.
-      - Using only dropout : validation accuracy is comparatively better and also the difference with training accuracy is less.
+    - On top of data imbalance changes, tried two options
+      - With dropout and batch normalization
+      - With only dropout
+    - Even though validation accuracy increased, still there is 0.1 gap between training and validation accuracy.
 
 ## References
 - https://keras.io/guides/
